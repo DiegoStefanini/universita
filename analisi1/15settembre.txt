@@ -1,0 +1,101 @@
+INSIEMI
+N numeri naturali  (interi positivi) 
+Z inter (positivi e negativi) 
+Q razionali "frazioni" 
+R numeri reali 
+
+N<Z<Q<R
+
+
+AcB ( a sottoinsieme di b ) 
+
+Intervalli di R
+Definizione 
+
+IcR si dice intervallo se per ogni x,i appartenente a I con x<y, dato NON CHO CAPITO UN CAZZO
+ESEMPIO 
+
+I = X appartente a R x != 0 non è un intervallo
+    x = -1 y = 3 z = 0
+    x<z<y 
+
+z non appartiene a I - MA CHE CAZZO STA FACENDO
+
+NOTAZIONE 
+a,b appartenente a R  con a<b
+
+[a,b] = x app R: a<x<b
+
+(a,b) = x app R a<x<b = ]a,b[ intervallo aperto 
+
+[a,b) x app R a<=x<b
+(a,b] x app R a<x=<b
+
+[a,+inf) = x app r x>=a 
+
+(a,+inf) = x app r x>a 
+(-inf, a]= x app R x <= a
+(-inf, a) = x app r x < a
+
+
+
+FUNZIONI 
+una funzione è una terna di oggetti due insiemi A,B e una legge f 
+A si dice dominio 
+B si dice codomioio 
+
+f: A-->B
+la legge f mette in corrispondenza ogni elemento di a con uno e un solo elemento di b 
+
+
+Es.. f R-->R 
+f(x) = 2x
+
+DEFINIZIONE 
+si dice grafico di f il seguente insieme: 
+graph(f)  = (x,y) app AxB tale che y = f(x) 
+
+DEF: f: A-->B funzione, DcA
+allora l'insieme y<B: y=f(x) , ycD 
+si dice immagine di D attraverso f e si indica f(D) 
+se D > A allora f(A) si indica con imm(f) e si dice immegine di f
+
+esempio 
+
+f: R-->R fx = x^2 
+
+
+
+DEF 
+f: a-->b si dice iniettiva se per ogni x1,x2 app A con x1 != x2 risulta fx1 != fx2 
+
+es 
+f: [0, +inf) --> R fx = x^2 
+questa è iniettiva perché ho ristretto il dominio
+
+DEF 
+f: a-->b  si dice surgettiva se per ogni y app B Egirata x app A fx=y 
+(deve tocca tutti i punti del grafico) quando proietto l'immagine di f non rimane scoperto nulla 
+
+se una f è sia inietiva che sugertiva si dice che è bigettiva
+
+Se f è bigettiva posso costruire la f inversa f^-1 b-->a in questo modo
+
+per ogni y app B esiste almeno un x app a tale che fx=Y (sugiettiva) 
+
+e tale x è iniettiva 
+
+
+pongo f^-1(y) = x con x unica soluzione  
+di f(x) = y 
+
+
+
+
+
+
+
+
+
+
+ 
